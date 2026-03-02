@@ -62,8 +62,8 @@ Plus simulation-specific debugging (Gazebo, MuJoCo, Isaac Sim), VLA/ML inference
 Clone this repo and run `setup.sh` pointing at your ROS2 workspace:
 
 ```bash
-git clone https://github.com/<you>/claude-robotics
-cd claude-robotics
+git clone https://github.com/Rushabh318/claude-ros2.git
+cd claude-ros2
 ./setup.sh /path/to/your/ros2/workspace
 ```
 
@@ -89,7 +89,7 @@ cp -r .claude/skills /path/to/your/ros2/workspace/.claude/skills
 
 ```bash
 cd /path/to/your/ros2/workspace
-git submodule add https://github.com/<you>/claude-robotics .claude-robotics
+git submodule add https://github.com/Rushabh318/claude-ros2.git .claude-robotics
 .claude-robotics/setup.sh .
 ```
 
