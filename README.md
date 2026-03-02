@@ -1,4 +1,4 @@
-# claude-robotics
+# claude-ros2
 
 > Claude context files and skills for ROS2 & robotics development.
 
